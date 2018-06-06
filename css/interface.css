@@ -1,0 +1,158 @@
+/* Grids & Containers */
+
+* {
+	box-sizing: border-box;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+[class*="h"].container-header { text-align:center; }
+
+/* Display */
+
+table.rounded {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-style: hidden;
+}
+table.rounded th:first-child {
+	border-radius: 10px 0px 0px 0px;
+}
+table.rounded th:last-child {
+	border-radius: 0px 10px 0px 0px;
+}
+table.rounded tr:last-child td:first-child {
+	border-radius: 0px 0px 0px 10px;
+}
+table.rounded tr:last-child td:last-child {
+	border-radius: 0px 0px 10px 0px;
+}
+table.rounded th, td {
+	border-collapse: collapse;
+	border-bottom: 0.5px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+table.rounded-grey th {
+	background-color: lightgrey;
+}
+table.rounded-grey td {
+	background-color: #f1f1f1;
+}
+
+table.rounded-green th {
+	background-color: #90EE90;
+}
+table.rounded-green td {
+	background-color: #F0FFF0;
+}
+
+table.rounded-yellow th {
+	background-color: #FAFAD2;
+}
+table.rounded-yellow td {
+	background-color: #FFFFF0;
+}
+
+table.rounded-red th {
+	background-color: #E9967A;
+}
+table.rounded-red td {
+	background-color: #FFE4E1;
+}
+
+/* Navigation */
+
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	padding: 2px;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+}
+
+.tab button {
+	background-color: inherit;
+	float: center;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 14px;
+	border-radius: 10px;
+}
+
+.tab button:hover {
+	background-color: #ddd;
+}
+.tab button.active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+	display: none;
+	padding: 12px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-radius: 0px 0px 10px 10px;
+}
+
+ul.menubar {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 10px;
+	overflow: hidden;
+	background-color: darkgrey;
+	border-radius: 10px;
+}
+
+li.menulink {
+	float: left;
+}
+
+li.loglink {
+	float: right;
+}
+
+li.menulink a, li.loglink a {
+	background-color: darkgrey;
+	padding: 10px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+li.menulink a.active, li.loglink a.active {
+	background-color: #909090;
+}
+
+li.menulink a:hover, li.loglink a:hover {
+	background-color: #808080;
+}
