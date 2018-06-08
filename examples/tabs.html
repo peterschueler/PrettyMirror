@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../css/interface.css">
+<script src="../javascript/functions.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<h2 class="container-header">This is a container for tabs</h2>
+	<div class="row">
+		<div class="col-12">
+			<div class="tab tab-green">
+				<button class="tabbutton" onclick="toggleTab(event, 'first')">First</button>
+				<button class="tabbutton" onclick="toggleTab(event, 'second')">Second</button>
+			</div>
+			<div id="first" class="tabcontent" style="overflow-x:auto;">
+				Hellloooooo.
+			</div>
+
+			<div id="second" class="tabcontent" style="overflow-x:auto;">
+				4.3.5. Remember Richard and Linda. Two birds, one stone.
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
