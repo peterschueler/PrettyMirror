@@ -64,6 +64,29 @@ table.rounded th, td {
 	padding: 10px;
 }
 
+.notebox {
+	position: relative;
+	border: 2px solid #C0C0C0;
+	border-radius: 10px;
+	background-color: #DCDCDC;
+	width: 100%;
+	overflow: auto;
+}
+
+.notebox > .notebox-content {
+	padding-left: 10px;
+}
+
+.notebox > .notebox-header {
+	font-style: italic;
+	text-align: right;
+	width: 100%;
+	background-color: #C0C0C0;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 table.rounded-grey th {
 	background-color: lightgrey;
 }
@@ -74,21 +97,21 @@ table.rounded-grey td {
 table.rounded-green th {
 	background-color: #90EE90;
 }
-table.rounded-green td {
+table.rounded-green td, div.notebox-green {
 	background-color: #F0FFF0;
 }
 
 table.rounded-yellow th {
 	background-color: #FAFAD2;
 }
-table.rounded-yellow td {
+table.rounded-yellow td, div.notebox-yellow {
 	background-color: #FFFFF0;
 }
 
 table.rounded-red th {
 	background-color: #E9967A;
 }
-table.rounded-red td {
+table.rounded-red td, div.notebox-red {
 	background-color: #FFE4E1;
 }
 

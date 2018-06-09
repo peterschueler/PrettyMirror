@@ -17,5 +17,3 @@ function toggleTab(event, type) {
 	document.getElementById(type).style.display = "block";
 	evt.currentTarget.className += " active";
 }
-
-document.getElementById('defaultOpen').click();
