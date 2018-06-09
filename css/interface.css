@@ -71,6 +71,7 @@ table.rounded th, td {
 	background-color: #DCDCDC;
 	width: 100%;
 	overflow: auto;
+	margin-bottom: 20px;
 }
 
 .notebox > .notebox-content {
