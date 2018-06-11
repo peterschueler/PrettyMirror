@@ -2,7 +2,6 @@ body { margin: 0;}
 
 * {
 	box-sizing: border-box;
-	font: 1em "Verdana", sans-serif;
 }
 
 .row::after {
