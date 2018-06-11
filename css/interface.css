@@ -172,28 +172,28 @@ table.rounded th, td {
 table.rounded-grey th {
 	background-color: #d3d3d3;
 }
-table.rounded-grey td {
+table.rounded-grey td, table.rounded-green td, table.rounded-red td, table.rounded-yellow td {
 	background-color: #f1f1f1;
 }
 
 table.rounded-green th, .pm-tab-green, .notebox > .notebox-header-green {
 	background-color: #55F3B4;
 }
-table.rounded-green td, div.notebox-green {
+div.notebox-green {
 	background-color: #f0fff0;
 }
 
 table.rounded-yellow th, .pm-tab-yellow, .notebox > .notebox-header-yellow {
 	background-color: #FCFCA4;
 }
-table.rounded-yellow td, div.notebox-yellow {
+div.notebox-yellow {
 	background-color: #fffff0;
 }
 
 table.rounded-red th, .pm-tab-red, .notebox > .notebox-header-red{
 	background-color: #FFA07A;
 }
-table.rounded-red td, div.notebox-red {
+div.notebox-red {
 	background-color: #ffe4e1;
 }
 
