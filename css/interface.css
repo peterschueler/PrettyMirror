@@ -35,27 +35,33 @@ body { margin: 0;}
 	margin-top: 30px;
 }
 
-table.rounded {
+table.rounded, table.notebox {
 	width: 100%;
 	border-collapse: collapse;
 	border-spacing: 0;
 	border-style: hidden;
+	table-layout: fixed;
 }
+
 table.rounded th:first-child {
 	border-radius: 10px 0px 0px 0px;
 }
+
 table.rounded th:last-child {
 	border-radius: 0px 10px 0px 0px;
 }
+
 table.rounded tr:last-child td:first-child {
 	border-radius: 0px 0px 0px 10px;
 }
+
 table.rounded tr:last-child td:last-child {
 	border-radius: 0px 0px 10px 0px;
 }
-table.rounded th, td {
+
+table.rounded th, td, table.notebox th, td {
 	border-collapse: collapse;
-	border-bottom: 0.5px solid #000000;
+	border: 0.5px solid #000000;
 	text-align: center;
 	padding: 10px;
 }
@@ -82,58 +88,61 @@ table.rounded th, td {
 	border-radius: 10px;
 	outline: 0;
 	box-shadow: 0 2px 4px #c0c0c0;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 }
 
 .pm-button:hover {
-	background-color: #DCDCDC;
+	background-color: #dcdcdc;
 }
 
 .pm-button-green {
-	background-color: #2FCB8D;
-	border: 0.5px solid #2E8B57;
-	box-shadow: 0 2px 4px #2E8B57;
+	background-color: #2fcb8d;
+	border: 0.5px solid #2e8b57;
+	box-shadow: 0 2px 4px #2e8b57;
 }
 
 .pm-button-green:hover {
-	background-color: #3CB371;
+	background-color: #3cb371;
 }
 
 .pm-button-yellow {
-	background-color: #FFFF99;
-	border: 0.5px solid #C2C72B;
-	box-shadow: 0 2px 4px #C2C72B;
+	background-color: #ffff99;
+	border: 0.5px solid #c2c72b;
+	box-shadow: 0 2px 4px #c2c72b;
 }
 
 .pm-button-yellow:hover {
-	background-color: #FFFF00;
+	background-color: #ffff00;
 }
 
 .pm-button-red {
-	background-color: #FD7D56;
-	border: 0.5px solid #C7502B;
-	box-shadow: 0 2px 4px #C7502B;
+	background-color: #fd7d56;
+	border: 0.5px solid #c7502b;
+	box-shadow: 0 2px 4px #c7502b;
 }
 
 .pm-button-red:hover {
-	background-color: #F08080;
+	background-color: #f08080;
 }
 
 .notebox {
 	position: relative;
 	border: 2px solid #c0c0c0;
 	border-radius: 10px;
-	background-color: #dcdcdc;
 	width: 100%;
 	overflow: auto;
 	margin-bottom: 20px;
+}
+
+.notebox > table.notebox {
+	margin-bottom: 0;
 }
 
 .notebox > .notebox-content {
 	padding-left: 10px;
 }
 
-.notebox > .notebox-header-large {
+.notebox > .notebox-decoration-large {
 	font-weight: bold;
 	width: 100%;
 	background-color: #c0c0c0;
@@ -143,7 +152,7 @@ table.rounded th, td {
 	border-bottom: 2px solid #c0c0c0;
 }
 
-.notebox > .notebox-header {
+.notebox > .notebox-decoration {
 	font-style: italic;
 	text-align: right;
 	width: 100%;
@@ -157,44 +166,42 @@ table.rounded th, td {
 .notebox > .notebox-footer {
 	font-style: italic;
 	font-size: 75%;
-	text-align: center;
-	float: right;
-	width: 40%;
+	text-align: right;
+	width: 100%;
 	background-color: #c0c0c0;
 	padding: 2px;
 	padding-left: 10px;
 	padding-right: 10px;
-	border-radius: 10px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
 	border-top: 2px solid #c0c0c0;
-	border-left: 2px solid #c0c0c0;
 }
 
 table.rounded-grey th {
 	background-color: #d3d3d3;
 }
-table.rounded-grey td, table.rounded-green td, table.rounded-red td, table.rounded-yellow td {
+
+table.rounded tr:nth-child(even) {
+	background-color: #e1e1e1;
+}
+
+table.rounded tr:nth-child(odd), table.notebox th {
 	background-color: #f1f1f1;
 }
 
-table.rounded-green th, .pm-tab-green, .notebox > .notebox-header-green {
-	background-color: #55F3B4;
-}
-div.notebox-green {
-	background-color: #f0fff0;
+table.rounded tr:hover, table.notebox tr:hover {
+	background-color: #d1d1d1;
 }
 
-table.rounded-yellow th, .pm-tab-yellow, .notebox > .notebox-header-yellow {
-	background-color: #FCFCA4;
-}
-div.notebox-yellow {
-	background-color: #fffff0;
+table.rounded-green th, .pm-tab-green, .notebox > .notebox-decoration-green {
+	background-color: #55f3b4;
 }
 
-table.rounded-red th, .pm-tab-red, .notebox > .notebox-header-red{
-	background-color: #FFA07A;
+table.rounded-yellow th, .pm-tab-yellow, .notebox > .notebox-decoration-yellow {
+	background-color: #fcfca4;
 }
-div.notebox-red {
-	background-color: #ffe4e1;
+
+table.rounded-red th, .pm-tab-red, .notebox > .notebox-decoration-red {
+	background-color: #ffa07a;
 }
 
 html, body {
