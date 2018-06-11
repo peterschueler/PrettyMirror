@@ -12,9 +12,11 @@
 	<h2 class="container-header">This is a container for tabs</h2>
 	<div class="row">
 		<div class="col-12">
-			<div class="tab tab-green">
-				<button class="tabbutton" onclick="toggleTab(event, 'first')" id="defaultOpen">First</button>
-				<button class="tabbutton" onclick="toggleTab(event, 'second')">Second</button>
+			<div class="pm-tab pm-tab-default" id="maintab">
+				<button class="pm-button" onclick="toggleTab('first', 'default', 'maintab')" id="defaultOpen">First</button>
+				<button class="pm-button pm-button-red" onclick="toggleTab('second', 'red', 'maintab')">Second</button>
+				<button class="pm-button pm-button-yellow" onclick="toggleTab('third', 'yellow', 'maintab')">Third</button>
+				<button class="pm-button pm-button-green" onclick="toggleTab('fourth', 'green', 'maintab')">Fourth</button>
 			</div>
 			<div id="first" class="tabcontent" style="overflow-x:auto;">
 				Hellloooooo.
@@ -23,7 +25,12 @@
 			<div id="second" class="tabcontent" style="overflow-x:auto;">
 				4.3.5. Remember Richard and Linda. Two birds, one stone.
 			</div>
-		</div>
+			<div id="third" class="tabcontent" style="overflow-x:auto;">
+				The owls are not what they seem.
+			</div>
+			<div id="fourth" class="tabcontent" style="overflow-x:auto;">
+				There was a fish *in* the percolator.
+			</div>
 	</div>
 </div>
 
