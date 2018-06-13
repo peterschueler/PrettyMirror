@@ -13,15 +13,15 @@
 }
 
 .pm-tab-green {
-	var(--pm-primary-color-green);
+	background-color: var(--pm-primary-color-green);
 }
 
 .pm-tab-yellow {
-	var(--pm-primary-color-yellow);
+	background-color: var(--pm-primary-color-yellow);
 }
 
 .pm-tab-red {
-	var(--pm-primary-color-red);
+	background-color: var(--pm-primary-color-red);
 }
 
 .pm-button {
@@ -88,6 +88,7 @@ ul.menubar {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
 }
 
 ul.menubar.radius { border-radius: 0px 0px 10px 10px; }
@@ -103,6 +104,7 @@ ul.menubar.radius { border-radius: 0px 0px 10px 10px; }
 		top: auto;
 		bottom: 0;
 		width: 100%;
+		box-shadow: 0 0 4px 2px var(--pm-secondary-color-grey);
 	}
 	
 	ul.menubar.radius { border-radius: 10px 10px 0px 0px; }
@@ -133,25 +135,6 @@ li.menulink a:hover, li.loglink a:hover {
 	background-color: #808080;
 }
 
-.dropdownbutton {
-	background-color: var(--pm-primary-color-grey);
-	display: block;
-	color: #ffffff;
-	border: none;
-	text-align: center;
-	text-decoration: none;
-	cursor: pointer;
-	border-radius: 10px;
-	padding: 8px;
-	font: inherit;
-	font-size: inherit;
-}
-
-li.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
 .dropdown-content {
 	list-style-type: none;
 	margin: 0;
@@ -162,6 +145,7 @@ li.dropdown {
 	width: 100%;
 	background-color: var(--pm-secondary-color-grey);
 	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
 }
 
 .dropdown-content a {
@@ -187,6 +171,7 @@ li.dropdown {
 		width: 100%;
 		background-color: var(--pm-secondary-color-grey);
 		border-radius: 10px 10px 0px 0px;
+		box-shadow: 0 0 4px 2px var(--pm-secondary-color-grey);
 	}
 }
 
