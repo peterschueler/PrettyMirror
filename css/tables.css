@@ -54,7 +54,7 @@ table th.sortable-up a:after {
 }
 
 .notebox > .notebox-content {
-	padding-left: 10px;
+	padding: 0 20px;
 }
 
 .notebox > .notebox-decoration-large {
@@ -62,8 +62,8 @@ table th.sortable-up a:after {
 	width: 100%;
 	background-color: var(--pm-secondary-color-grey);
 	padding: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	border-bottom: 2px solid var(--pm-secondary-color-grey);
 }
 
@@ -73,8 +73,8 @@ table th.sortable-up a:after {
 	width: 100%;
 	background-color: var(--pm-secondary-color-grey);
 	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	border-bottom: 2px solid var(--pm-secondary-color-grey);
 }
 
@@ -85,8 +85,8 @@ table th.sortable-up a:after {
 	width: 100%;
 	background-color: var(--pm-secondary-color-grey);
 	padding: 2px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	border-radius: 0px 0px 0px 0px;
 	border-top: 2px solid var(--pm-secondary-color-grey);
 }

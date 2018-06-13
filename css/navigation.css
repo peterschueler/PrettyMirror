@@ -114,6 +114,11 @@ li.menulink {
 	float: left;
 }
 
+li.home {
+	float: left;
+	font-weight: bold;
+}
+
 li.loglink {
 	float: right;
 }
