@@ -118,3 +118,7 @@ table.rounded-yellow th, .notebox > .notebox-decoration-yellow {
 table.rounded-red th, .notebox > .notebox-decoration-red {
 	background-color: var(--pm-primary-color-red);
 }
+
+table.rounded-blue th, .notebox > .notebox-decoration-blue {
+	background-color: var(--pm-primary-color-blue);
+}

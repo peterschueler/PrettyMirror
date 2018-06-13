@@ -24,6 +24,10 @@
 	background-color: var(--pm-primary-color-red);
 }
 
+.pm-tab-blue {
+	background-color: var(--pm-primary-color-blue);
+}
+
 .pm-button {
 	cursor: pointer;
 	float: center;
@@ -35,6 +39,10 @@
 	outline: 0;
 	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
 	background-color: #ffffff;
+}
+
+.pm-button a {
+	color: #000000;
 }
 
 .pm-button:hover {
@@ -69,6 +77,16 @@
 
 .pm-button-red:hover {
 	background-color: #f08080;
+}
+
+.pm-button-blue {
+	background-color: #5981D1;
+	border: 0.5px solid #5378C1;
+	box-shadow: 0 2px 4px #4664A1;
+}
+
+.pm-button-blue:hover {
+	background-color: #628DE2;
 }
 
 .tabcontent {
