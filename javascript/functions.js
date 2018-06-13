@@ -20,3 +20,12 @@ function toggleTab(type, color, tabcontainer) {
 	
 	document.getElementById(tabcontainer).className = document.getElementById("maintab").className.replace(regex, "pm-tab-" + color);
 }
+
+function toggleSortOrder(element) {
+	var link = document.getElementById(element);
+	if (link.classList.contains("sortable-up") == true) {
+		link.className = link.className.replace("sortable-up", "sortable-down");
+	} else if (link.classList.contains("sortable-down") == true) {
+		link.className = link.className.replace("sortable-down", "sortable-up");
+	}
+}

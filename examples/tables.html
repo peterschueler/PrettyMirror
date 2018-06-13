@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../css/interface.css">
+<link rel="stylesheet" type="text/css" href="../css/pretty_mirror.css">
 <script src="../javascript/functions.js"></script>
 </head>
 
@@ -13,17 +13,17 @@
 	<h2 class="container-header">This is a container for tables</h2>
 	<div class="row">
 		<div class="col-6">
-			<h2 class="container-header">Rounded Table, grey</h2>
+			<h2 class="container-header">Rounded Table, default</h2>
 			<div style="overflow-x:auto;">
-				<table class="rounded rounded-grey">
+				<table class="rounded">
 					<tr>
 						<th>Name</th>
 						<th>LastName</th>
-						<th>Occupation</th>
+						<th class="sortable-up" id="occ1"><a href="#" onclick="toggleSortOrder('occ1')">Occupation</a></th>
 					</tr>
 					<tr>
 						<td>Dale</td>
-						<td>Cooper</td>
+						<td><a href=#>Cooper</a></td>
 						<td>FBI Agent</td>
 					</tr>
 					<tr>
@@ -46,7 +46,7 @@
 					<tr>
 						<th>Name</th>
 						<th>LastName</th>
-						<th>Occupation</th>
+						<th class="sortable-down" id="occ2"><a href="#" onclick="toggleSortOrder('occ2')">Occupation</a></th>
 					</tr>
 					<tr>
 						<td>Tommy</td>
@@ -80,7 +80,7 @@
 
 	<div class="row">
 		<div class="col-6">
-			<h2 class=container-header>Rounded Table, yellow</h2>
+			<h2 class=container-header>Rounded Table, red</h2>
 			<div style="overflow-x:auto;">
 				<table class="rounded rounded-red">
 					<tr>
