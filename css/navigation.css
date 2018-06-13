@@ -89,6 +89,16 @@
 	background-color: #6999DF;
 }
 
+.pm-button-magenta {
+	background-color: #DA6D9C;
+	border: 0.5px solid #C3618C;
+	box-shadow: 0 2px 4px #A85F7F;
+}
+
+.pm-button-magenta:hover {
+	background-color: #D5578D;
+}
+
 .tabcontent {
 	display: none;
 	padding: 12px 12px;
