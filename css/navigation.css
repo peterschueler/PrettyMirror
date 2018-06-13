@@ -211,3 +211,22 @@ li.menulink a:hover, li.loglink a:hover {
 }
 
 .show { display:block; }
+
+.pm-navigation-line {
+	list-style: none;
+	background-color: var(--pm-secondary-color-grey);
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 20px;
+	float: left;
+	width: 100%;
+}
+
+.pm-navigation-line li {
+	display: block;
+	float: left;
+	padding-right: 5px;
+}
+.pm-navigation-line li:before {
+	content: "‣ ";
+}
