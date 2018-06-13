@@ -55,6 +55,8 @@ table th.sortable-up a:after {
 
 .notebox > .notebox-content {
 	padding: 0 20px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 .notebox > .notebox-decoration-large {

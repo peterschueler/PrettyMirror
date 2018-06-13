@@ -33,12 +33,12 @@
 	float: center;
 	border: 0.5px solid var(--pm-secondary-color-grey);
 	padding: 8px 16px;
-	margin-right: 6px;
 	font-size: 12px;
 	border-radius: 10px;
 	outline: 0;
 	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
 	background-color: #ffffff;
+	margin: 5px;
 }
 
 .pm-button a {
@@ -80,13 +80,13 @@
 }
 
 .pm-button-blue {
-	background-color: #5981D1;
+	background-color: #69A0F2;
 	border: 0.5px solid #5378C1;
 	box-shadow: 0 2px 4px #4664A1;
 }
 
 .pm-button-blue:hover {
-	background-color: #628DE2;
+	background-color: #6999DF;
 }
 
 .tabcontent {
