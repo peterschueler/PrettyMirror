@@ -8,6 +8,14 @@
 	text-align: center;
 }
 
+.pm-tab-left {
+	text-align: left;
+}
+
+.pm-tab-right {
+	text-align: right;
+}
+
 .pm-tab-default {
 	background-color: #f1f1f1;
 }
@@ -97,6 +105,26 @@
 
 .pm-button-magenta:hover {
 	background-color: #D5578D;
+}
+
+.pm-button-link {
+	color: #000000;
+}
+
+.pm-button-link:hover {
+	color: #000000;
+}
+
+.pm-label-info {
+	margin: 10px;
+	background-color: var(--pm-secondary-color-grey);
+	font: inherit;
+	font-size: 90%;
+	float: right;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
 }
 
 .tabcontent {
