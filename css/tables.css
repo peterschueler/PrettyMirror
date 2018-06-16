@@ -8,6 +8,38 @@ table.rounded, table.notebox {
 	table-layout: fixed;
 }
 
+.whitetable-wrapper {
+	border-left: 2px solid var(--pm-border-color);
+	border-right: 2px solid var(--pm-border-color);
+	border-bottom: 2px solid var(--pm-border-color);
+	border-radius: 0 0 10px 10px;
+}
+
+.whitetable {
+	width: 100%;
+	border-collapse: collapse;
+	border-style: hidden;
+	table-layout: fixed;
+}
+
+.whitetable th,td {
+	border: 2px solid var(--pm-border-color);
+	text-align: center;
+	padding: 10px;
+}
+
+.whitetable th {
+	background-color: var(--pm-table-header-grey);
+}
+
+.whitetable tr:nth-child(even) {
+	background-color: var(--pm-table-even-grey);
+}
+
+.whitetable tr:nth-child(odd) {
+	background-color: var(--pm-table-odd-grey);
+}
+
 table.rounded th:first-child {
 	border-radius: 10px 0px 0px 0px;
 }
@@ -16,11 +48,11 @@ table.rounded th:last-child {
 	border-radius: 0px 10px 0px 0px;
 }
 
-table.rounded tr:last-child td:first-child {
+table.rounded tr:last-child td:first-child, table.whitetable tr:last-child td:first-child {
 	border-radius: 0px 0px 0px 10px;
 }
 
-table.rounded tr:last-child td:last-child {
+table.rounded tr:last-child td:last-child, table.whitetable tr:last-child td:last-child {
 	border-radius: 0px 0px 10px 0px;
 }
 

@@ -6,4 +6,8 @@
 	--pm-primary-color-magenta: #DE81A9;
 	--pm-primary-color-grey: #a9a9a9;
 	--pm-secondary-color-grey: #c0c0c0;
+	--pm-table-header-grey: #d8d8d8;
+	--pm-table-even-grey: #f3f3f3;
+	--pm-table-odd-grey: #e8e8e8;
+	--pm-border-color: #c0c0c0;
 }
