@@ -259,3 +259,53 @@ li.menulink a:hover, li.loglink a:hover {
 .pm-navigation-line li:before {
 	content: "‣ ";
 }
+
+.pm-pagination {
+	list-style: none;
+	background-color: var(--pm-secondary-color-grey);
+	margin-top: 10px;
+	padding: 0px;
+	border-radius: 10px;
+	overflow: auto;
+	text-align: center;
+}
+
+.pm-pagination li {
+	display: inline-block;
+}
+
+.pm-pagination li.previous {
+	float: left;
+}
+
+.pm-pagination li.cardinality {
+	padding-top: 10px;
+}
+
+.pm-pagination li.next {
+	float: right;
+}
+
+.container-paginaton {
+	width: 40%;
+	padding: 0px 45px;
+	margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+	.container-paginaton {
+		width: 60%;
+	}
+	body {
+		margin-top: 0;
+	}
+	.notebox {
+		margin-bottom: 75px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container-paginaton {
+		width: 100%;
+	}
+}

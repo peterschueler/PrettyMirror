@@ -60,6 +60,16 @@ table.rounded th, table.rounded td, table.notebox th, table.notebox td, table.ro
 	padding: 7px;
 }
 
+table.notebox th, table.notebox td {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table.no-vertical-border th, table.no-vertical-border td {
+	border: none;
+	border-bottom: 0.5px solid var(--pm-border-color-dark);
+}
+
 table th.sortable-down a:after {
 	font-size: 9px;
 	content: " ▼"
@@ -75,7 +85,6 @@ table th.sortable-up a:after {
 	border-radius: 10px;
 	width: 100%;
 	overflow: auto;
-	margin-bottom: 20px;
 }
 
 .notebox > table.notebox {
@@ -120,11 +129,11 @@ table th.sortable-up a:after {
 
 .notebox > .notebox-footer {
 	font-style: italic;
-	font-size: 75%;
+	font-size: 90%;
 	text-align: right;
 	width: 100%;
 	background-color: var(--pm-secondary-color-grey);
-	padding: 2px;
+	padding: 7px;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-radius: 0px 0px 0px 0px;
