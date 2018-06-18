@@ -5,21 +5,24 @@ table.rounded, table.notebox {
 	border-collapse: collapse;
 	border-spacing: 0;
 	border-style: hidden;
-	table-layout: fixed;
 }
 
-table.rounded-bottom-wrapper {
+.rounded-bottom-wrapper {
 	border-left: 2px solid var(--pm-border-color);
 	border-right: 2px solid var(--pm-border-color);
 	border-bottom: 2px solid var(--pm-border-color);
 	border-radius: 0 0 10px 10px;
+	overflow-x: auto;
+}
+
+.flexible-table {
+	overflow-x: auto;
 }
 
 table.rounded-bottom {
 	width: 100%;
 	border-collapse: collapse;
 	border-style: hidden;
-	table-layout: fixed;
 }
 
 table.rounded-bottom th, table.rounded th {
@@ -50,11 +53,11 @@ table.rounded tr:last-child td:last-child, table.rounded-bottom tr:last-child td
 	border-radius: 0px 0px 10px 0px;
 }
 
-table.rounded th, td, table.notebox th, td, table.rounded-bottom th,td {
+table.rounded th, table.rounded td, table.notebox th, table.notebox td, table.rounded-bottom td, table.rounded-bottom th {
 	border-collapse: collapse;
 	border: 0.5px solid var(--pm-border-color-dark);
-	text-align: center;
-	padding: 10px;
+	text-align: left;
+	padding: 7px;
 }
 
 table th.sortable-down a:after {
@@ -85,6 +88,15 @@ table th.sortable-up a:after {
 	padding-bottom:20px;
 }
 
+.notebox > .notebox-decoration-default {
+	width: 100%;
+	background-color: var(--pm-secondary-color-grey);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 2px solid var(--pm-secondary-color-grey);
+}
+
 .notebox > .notebox-decoration-large {
 	font-weight: bold;
 	width: 100%;
@@ -95,7 +107,7 @@ table th.sortable-up a:after {
 	border-bottom: 2px solid var(--pm-secondary-color-grey);
 }
 
-.notebox > .notebox-decoration {
+.notebox > .notebox-decoration-info {
 	font-style: italic;
 	text-align: right;
 	width: 100%;

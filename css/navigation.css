@@ -2,7 +2,7 @@
 
 .pm-tab {
 	overflow: hidden;
-	border: 1px solid #ccc;
+	border: 2px solid var(--pm-secondary-color-grey);
 	padding: 6px;
 	border-radius: 10px 10px 0px 0px;
 	text-align: center;
@@ -117,6 +117,7 @@
 
 .pm-label-info {
 	margin: 10px;
+	margin-right: 5px;
 	background-color: var(--pm-secondary-color-grey);
 	font: inherit;
 	font-size: 90%;
