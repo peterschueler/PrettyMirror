@@ -8,35 +8,29 @@ table.rounded, table.notebox {
 	table-layout: fixed;
 }
 
-.whitetable-wrapper {
+table.rounded-bottom-wrapper {
 	border-left: 2px solid var(--pm-border-color);
 	border-right: 2px solid var(--pm-border-color);
 	border-bottom: 2px solid var(--pm-border-color);
 	border-radius: 0 0 10px 10px;
 }
 
-.whitetable {
+table.rounded-bottom {
 	width: 100%;
 	border-collapse: collapse;
 	border-style: hidden;
 	table-layout: fixed;
 }
 
-.whitetable th,td {
-	border: 2px solid var(--pm-border-color);
-	text-align: center;
-	padding: 10px;
-}
-
-.whitetable th {
+table.rounded-bottom th, table.rounded th {
 	background-color: var(--pm-table-header-grey);
 }
 
-.whitetable tr:nth-child(even) {
+table.rounded-bottom tr:nth-child(even), table.rounded tr:nth-child(even) {
 	background-color: var(--pm-table-even-grey);
 }
 
-.whitetable tr:nth-child(odd) {
+table.rounded-bottom tr:nth-child(odd), table.rounded tr:nth-child(odd), table.notebox th {
 	background-color: var(--pm-table-odd-grey);
 }
 
@@ -48,17 +42,17 @@ table.rounded th:last-child {
 	border-radius: 0px 10px 0px 0px;
 }
 
-table.rounded tr:last-child td:first-child, table.whitetable tr:last-child td:first-child {
+table.rounded tr:last-child td:first-child, table.rounded-bottom tr:last-child td:first-child {
 	border-radius: 0px 0px 0px 10px;
 }
 
-table.rounded tr:last-child td:last-child, table.whitetable tr:last-child td:last-child {
+table.rounded tr:last-child td:last-child, table.rounded-bottom tr:last-child td:last-child {
 	border-radius: 0px 0px 10px 0px;
 }
 
-table.rounded th, td, table.notebox th, td {
+table.rounded th, td, table.notebox th, td, table.rounded-bottom th,td {
 	border-collapse: collapse;
-	border: 0.5px solid #000000;
+	border: 0.5px solid var(--pm-border-color-dark);
 	text-align: center;
 	padding: 10px;
 }
@@ -125,20 +119,8 @@ table th.sortable-up a:after {
 	border-top: 2px solid var(--pm-secondary-color-grey);
 }
 
-table.rounded th {
-	background-color: #d3d3d3;
-}
-
-table.rounded tr:nth-child(even) {
-	background-color: #e1e1e1;
-}
-
-table.rounded tr:nth-child(odd), table.notebox th {
-	background-color: #f1f1f1;
-}
-
-table.rounded tr:hover, table.notebox tr:hover {
-	background-color: #d1d1d1;
+table.rounded tr:hover, table.notebox tr:hover, table.rounded-bottom tr:hover {
+	background-color: var(--pm-table-hover);
 }
 
 table.rounded-green th, .notebox > .notebox-decoration-green {
