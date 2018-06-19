@@ -12,6 +12,11 @@ table.notetable {
 	border-collapse: collapse;
 }
 
+table.notetable th, td {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 table.notetable td {
 	border-bottom: 0.5px solid var(--pm-border-color);
 }
