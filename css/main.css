@@ -14,12 +14,12 @@ body {
 
 a {
 	text-decoration: none;
-	color: #2C63D1;
+	color: var(--pm-link-color);
 }
 
 a:hover {
 	text-decoration: none;
-	color: #3574F3;
+	color: var(-pm-link-color-hover);
 }
 
 .row::after {

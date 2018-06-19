@@ -7,6 +7,26 @@ table.rounded, table.notebox {
 	border-style: hidden;
 }
 
+table.notetable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.notetable td {
+	border-bottom: 0.5px solid var(--pm-border-color);
+}
+
+table.notetable td.date {
+	font-size: 80%;
+	text-align: left;
+}
+
+table.notetable td.author {
+	font-style: italic;
+	font-size: 80%;
+	text-align: right;
+}
+
 .rounded-bottom-wrapper {
 	border-left: 2px solid var(--pm-border-color);
 	border-right: 2px solid var(--pm-border-color);
