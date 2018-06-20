@@ -13,10 +13,13 @@
 	<h2 class="container-header">This is a container for tabs</h2>
 	<div class="row">
 		<div class="col-12">
+			<button class=pm-button onclick="toggleBadge('defaultOpen', '23')">badge</button>
+			<button class=pm-button onclick="toggleBadge('defaultOpen', '')">unbadge</button>
+			<hr>
 			<div class="pm-tab pm-tab-default" id="maintab">
 				<button class="pm-button" onclick="toggleTab('first', 'default', 'maintab')" id="defaultOpen">First</button>
-				<button class="pm-button pm-button-red" onclick="toggleTab('second', 'red', 'maintab')">Second</button>
-				<button class="pm-button pm-button-yellow" onclick="toggleTab('third', 'yellow', 'maintab')"><a href="#">Third</a></button>
+				<button class="pm-button pm-button-red pm-notification-badge" onclick="toggleTab('second', 'red', 'maintab')" note-data="45">Second</button>
+				<button class="pm-button pm-button-yellow pm-notification-badge" onclick="toggleTab('third', 'yellow', 'maintab')" note-data=12><a href="#">Third</a></button>
 				<button class="pm-button pm-button-green" onclick="toggleTab('fourth', 'green', 'maintab')">Fourth</button>
 				<button class="pm-button pm-button-blue" onclick="toggleTab('fourth', 'blue', 'maintab')">Fifth</button>
 			</div>

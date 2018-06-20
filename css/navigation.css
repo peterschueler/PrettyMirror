@@ -47,6 +47,7 @@
 	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
 	background-color: #ffffff;
 	margin: 5px;
+	position: relative;
 }
 
 .pm-button a {
@@ -113,6 +114,24 @@
 
 .pm-button-link:hover {
 	color: #000000;
+}
+
+.pm-notification-badge:after {
+	content: attr(note-data);
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	display: block;
+	border-radius: 50%;
+	background: salmon;
+	border: 0.5px solid #C3618C;
+	box-shadow: 0 2px 4px #A85F7F;
+	position: absolute;
+	right: -10px;
+	top: -7px;
+	overflow: hidden;
 }
 
 .pm-label-info {

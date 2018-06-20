@@ -29,3 +29,17 @@ function toggleSortOrder(element) {
 		link.className = link.className.replace("sortable-down", "sortable-up");
 	}
 }
+
+function toggleBadge(element, text) {
+	var el = document.getElementById(element);
+	if (text == "") {
+		if (el.classList.contains("pm-notification-badge")) {
+			el.classList.remove("pm-notification-badge");
+		}	
+	} else {
+		el.setAttribute("note-data", text);
+		if (!el.classList.contains("pm-notification-badge")) {
+			el.classList.add("pm-notification-badge");
+		}
+	}
+}
