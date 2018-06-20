@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style='margin:0;'>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +9,23 @@
 
 <body>
 
+<div class=container>
+	<div class=row>
+		<div class=col-12>
+			<div id=message-container class=message-container>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container">
 	<h2 class="container-header">This is a container for tabs</h2>
 	<div class="row">
 		<div class="col-12">
 			<button class=pm-button onclick="toggleBadge('defaultOpen', '23')">badge</button>
 			<button class=pm-button onclick="toggleBadge('defaultOpen', '')">unbadge</button>
+			<button class=pm-button onclick="displayMessage('message-container', 'hello darkness my old friend.', 'red')">message</button>
+			<button class=pm-button onclick="dismissAllMessages('message-container')">dismiss all messages</button>
 			<hr>
 			<div class="pm-tab pm-tab-default" id="maintab">
 				<button class="pm-button" onclick="toggleTab('first', 'default', 'maintab')" id="defaultOpen">First</button>

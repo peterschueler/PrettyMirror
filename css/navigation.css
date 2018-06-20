@@ -147,6 +147,64 @@
 	border-radius: 10px;
 }
 
+.message-container {
+	margin-left: 6%;
+}
+
+.pm-message {
+	width: 30%;
+	background-color: var(--pm-primary-color-grey);
+	border-radius: 10px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+@media screen and (max-width: 800px) {
+	.pm-message {
+		float: left;
+		width: 50%	
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.pm-message {
+		float: left;
+		width: 100%	
+	}
+}
+
+.pm-message-green {
+	background-color: var(--pm-primary-color-green);
+	box-shadow: 0 2px 4px #2e8b57;
+}
+
+.pm-message-yellow {
+	background-color: var(--pm-primary-color-yellow);
+	box-shadow: 0 2px 4px #c2c72b;
+}
+
+.pm-message-red {
+	background-color: var(--pm-primary-color-red);
+	box-shadow: 0 2px 4px #A85F7F;
+}
+
+.pm-message-blue {
+	background-color: var(--pm-primary-color-blue);
+	box-shadow: 0 2px 4px #4664A1;
+}
+
+.pm-close-button {
+	float: right;
+	background-color: inherit;
+	border: none;
+	text-align: center;
+}
+
 .tabcontent {
 	display: none;
 	padding: 12px 12px;

@@ -43,3 +43,21 @@ function toggleBadge(element, text) {
 		}
 	}
 }
+
+function displayMessage(element, text, color) {
+	// element is the container the message appears in
+	var el = document.getElementById(element);
+	el.innerHTML += '<div class="pm-message pm-message-' + color + '" id=text>' + text + '<button class=pm-close-button type=button aria-label=Close onclick=dismissMessage("text")><span aria-hidden=true>X</span></button></div>';
+}
+
+function dismissMessage(element) {
+	// element is the messages itself
+	var el = document.getElementById(element);
+	el.parentNode.removeChild(el);
+}
+
+function dismissAllMessages(element) {
+	// element is the container the message appears in
+	var el = document.getElementById(element);
+	el.innerHTML = "";
+}
