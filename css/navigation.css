@@ -1,7 +1,6 @@
 @import url("base.css");
 
 .pm-tab {
-	overflow: hidden;
 	border: 2px solid var(--pm-secondary-color-grey);
 	padding: 6px;
 	border-radius: 10px 10px 0px 0px;
@@ -140,14 +139,13 @@
 	float: left;
 }
 
-.pm-navbar ul li a {
+.pm-navbar ul li a, .pm-navbar ul li button {
 	display: block;
 }
 
 .pm-navbar ul ul {
 	position: absolute;
 	top: 100%;
-	z-index: 1;
 }
 
 .pm-navbar ul ul li {
@@ -155,23 +153,29 @@
 	position: relative;
 }
 
-.pm-button-dropdown:after{
+.pm-button-dropdown:after {
 	content: " ▾";
 }
 
 .pm-dropped-button {
 	cursor: pointer;
-	float: left;
+	float: center;
 	width: 120px;
+	border: none;
 	border-left: 0.5px solid var(--pm-secondary-color-grey);
 	border-right: 0.5px solid var(--pm-secondary-color-grey);
 	padding: 8px 16px;
 	font-size: 12px;
-	border-radius: 0px;
 	outline: 0;
+	background: none;
 	background-color: #ffffff;
 	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
 	position: relative;
+	color: #000000;
+}
+
+.pm-dropped-button:hover {
+	background-color: var(--pm-button-color-hover);
 }
 
 li .first {
@@ -180,10 +184,6 @@ li .first {
 
 li .last {
 	border-radius: 0px 0px 10px 10px;
-}
-
-.pm-dropped-button:hover {
-	background-color: var(--pm-button-color-hover);
 }
 
 .pm-notification-badge:after {
