@@ -22,10 +22,20 @@
 	<h2 class="container-header">This is a container for tabs</h2>
 	<div class="row">
 		<div class="col-12">
-			<button class=pm-button onclick="toggleBadge('defaultOpen', '23')">badge</button>
-			<button class=pm-button onclick="toggleBadge('defaultOpen', '')">unbadge</button>
-			<button class=pm-button onclick="displayMessage('message-container', 'hello darkness my old friend.', 'red')">message</button>
-			<button class=pm-button onclick="dismissAllMessages('message-container')">dismiss all messages</button>
+			<div class="pm-navbar">	
+				<ul>
+					<li><button class=pm-button onclick="toggleBadge('defaultOpen', '23')">badge</button></li>
+					<li><button class=pm-button onclick="toggleBadge('defaultOpen', '')">unbadge</button></li>
+					<li><button class=pm-button onclick="displayMessage('message-container', 'hello darkness my old friend.', 'red')">message</button></li>
+					<li><button class=pm-button onclick="dismissAllMessages('message-container')">dismiss all messages</button></li>
+					<li><button class="pm-button pm-button-dropdown">options</button>
+						<ul>
+							<li><a href="#" class='pm-dropped-button first pm-button-link'>First</a></li>
+							<li><a href="#" class='pm-dropped-button last pm-button-link'>Second</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>	
 			<hr>
 			<div class="pm-tab pm-tab-default" id="maintab">
 				<button class="pm-button" onclick="toggleTab('first', 'default', 'maintab')" id="defaultOpen">First</button>

@@ -55,7 +55,7 @@
 }
 
 .pm-button:hover {
-	background-color: #dcdcdc;
+	background-color: var(--pm-button-color-hover);
 }
 
 .pm-button-green {
@@ -116,6 +116,76 @@
 	color: #000000;
 }
 
+.pm-navbar ul ul {
+	display: none;
+}
+
+.pm-navbar ul li:hover > ul {
+	display: block;
+}
+
+.pm-navbar ul {
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+.pm-navbar ul:after {
+	content: "";
+	clear: both;
+	disiplay: block;
+}
+
+.pm-navbar ul li {
+	float: left;
+}
+
+.pm-navbar ul li a {
+	display: block;
+}
+
+.pm-navbar ul ul {
+	position: absolute;
+	top: 100%;
+	z-index: 1;
+}
+
+.pm-navbar ul ul li {
+	float: left;
+	position: relative;
+}
+
+.pm-button-dropdown:after{
+	content: " ▾";
+}
+
+.pm-dropped-button {
+	cursor: pointer;
+	float: left;
+	width: 120px;
+	border-left: 0.5px solid var(--pm-secondary-color-grey);
+	border-right: 0.5px solid var(--pm-secondary-color-grey);
+	padding: 8px 16px;
+	font-size: 12px;
+	border-radius: 0px;
+	outline: 0;
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
+	position: relative;
+}
+
+li .first {
+	border-radius: 10px 10px 0px 0px;
+}
+
+li .last {
+	border-radius: 0px 0px 10px 10px;
+}
+
+.pm-dropped-button:hover {
+	background-color: var(--pm-button-color-hover);
+}
+
 .pm-notification-badge:after {
 	content: attr(note-data);
 	width: 20px;
@@ -167,7 +237,7 @@
 @media screen and (max-width: 800px) {
 	.pm-message {
 		float: left;
-		width: 50%	
+		width: 40%	
 	}
 }
 
