@@ -38,6 +38,7 @@ table.notetable td.author {
 	border-bottom: 2px solid var(--pm-border-color);
 	border-radius: 0 0 10px 10px;
 	overflow-x: auto;
+	width: 100%;
 }
 
 .flexible-table {
@@ -45,9 +46,14 @@ table.notetable td.author {
 }
 
 table.rounded-bottom {
-	width: 100%;
 	border-collapse: collapse;
 	border-style: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+	table.rounded-bottom {
+		white-space: nowrap;
+	}
 }
 
 table.rounded-bottom th, table.rounded th {
