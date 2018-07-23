@@ -151,7 +151,7 @@
 
 .pm-navbar ul ul {
 	position: absolute;
-	top: 100%;
+	width: 0;
 }
 
 .pm-navbar ul ul li {
