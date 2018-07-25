@@ -44,13 +44,13 @@
 	border-radius: 10px;
 	outline: 0;
 	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
-	background-color: #ffffff;
+	background-color: var(--pm-background-color-yellow);
 	margin: 5px;
 	position: relative;
 }
 
 .pm-button a {
-	color: #000000;
+	color: var(--pm-background-color-yellow);
 }
 
 .pm-button:hover {
@@ -108,11 +108,11 @@
 }
 
 .pm-button-link {
-	color: #000000;
+	color: ;
 }
 
 .pm-button-link:hover {
-	color: #000000;
+	color: var(--pm-background-color-yellow);
 }
 
 .pm-navbar ul ul {
@@ -345,7 +345,7 @@ li.loglink {
 li.menulink a, li.loglink a, li.home a {
 	background-color: var(--pm-primary-color-grey);
 	padding: 10px;
-	color: #ffffff;
+	color: var(--pm-background-color-yellow);
 	display: inline-block;
 	text-decoration: none;
 	border-radius: 10px;

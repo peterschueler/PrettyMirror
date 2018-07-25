@@ -5,6 +5,7 @@
 	--pm-primary-color-blue: #6F9DF9;
 	--pm-primary-color-magenta: #DE81A9;
 	--pm-primary-color-grey: #a9a9a9;
+	--pm-primary-color-purple: #b260e1;
 	--pm-secondary-color-grey: #c0c0c0;
 	--pm-table-header-grey: #d8d8d8;
 	--pm-table-even-grey: #f3f3f3;
@@ -15,4 +16,5 @@
 	--pm-link-color: #2C63D1;
 	--pm-link-color-hover: #3574F3;
 	--pm-button-color-hover: #dcdcdc;
+	--pm-background-color-yellow: #FFFFFA;
 }

@@ -118,6 +118,10 @@ table th.sortable-up a:after {
 	overflow: auto;
 }
 
+.notebox-purple {
+	border: 2px solid var(--pm-primary-color-purple);
+}
+
 .notebox > table.notebox {
 	margin-bottom: 0;
 }
@@ -193,4 +197,10 @@ table.rounded-blue th, .notebox > .notebox-decoration-blue {
 
 table.rounded-magenta th, .notebox > .notebox-decoration-magenta {
 	background-color: var(--pm-primary-color-magenta);
+}
+
+table.rounded-purple th, .notebox > .notebox-decoration-purple {
+	background-color: var(--pm-primary-color-purple);
+	color: var(--pm-background-color-yellow);
+	border-bottom: 2px solid var(--pm-secondary-color-purple);
 }
