@@ -108,11 +108,11 @@
 }
 
 .pm-button-link {
-	color: ;
+	color: #000000;
 }
 
 .pm-button-link:hover {
-	color: var(--pm-background-color-yellow);
+	color: #000000;
 }
 
 .pm-navbar ul ul {
