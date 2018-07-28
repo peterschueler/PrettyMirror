@@ -1,10 +1,7 @@
 html, body {
 	height: 100%;
-	margin-top: 75px;
-}
-
-body { 
 	margin: 0;
+	margin-top: 75px;
 }
 
 * {
@@ -46,16 +43,22 @@ a:hover {
 .col-11 { width: 91.66%; }
 .col-12 { width: 100%; }
 
-@media screen and (max-width: 800px) {
-	[class*="col-"] {
-		width: 100%;
-	}
-}
-
 [class*="h"].container-header { text-align:center; }
 
 .container {
-	padding: 0px 45px;
+	padding: 0px 20px;
+}
+
+@media screen and (max-width: 600px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	
+	.container {
+		padding: 0;
+		margin-left: -2%;
+		margin-right: -2%;
+	}
 }
 
 .frame iframe {
