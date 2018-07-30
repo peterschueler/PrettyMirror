@@ -48,6 +48,7 @@ table.notetable td.author {
 table.rounded-bottom {
 	border-collapse: collapse;
 	border-style: hidden;
+	width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
