@@ -57,6 +57,12 @@
 	background-color: var(--pm-button-color-hover);
 }
 
+.pm-button:disabled {
+	background-color: lightgrey;
+	box-shadow: none;
+	color: grey;
+}
+
 .pm-button-green {
 	background-color: #2fcb8d;
 	border: 0.5px solid #2e8b57;
