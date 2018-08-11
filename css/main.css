@@ -47,11 +47,34 @@ a:hover {
 
 .container {
 	padding: 0px 20px;
+	width: 100%;
 }
 
 @media screen and (max-width: 900px) {
 	html, body {
 		margin-top: 75px;
+	}
+}
+
+.container-half {
+	padding: 20px 20px;
+	width: 50%;
+}
+
+.container-left {
+	float: left;
+}
+
+.container-right {
+	float: right;
+}
+
+@media screen and (max-width: 600px) {
+	.container-half {
+		padding: 0 10px;
+		width: 100%;
+		float: none;
+		float: none;
 	}
 }
 
@@ -64,9 +87,9 @@ a:hover {
 	}
 	
 	.container {
-		padding: 0;
-		margin-left: -2%;
-		margin-right: -2%;
+		padding: 0 10px;
+		width: 100%;
+		float: none;
 	}
 }
 
