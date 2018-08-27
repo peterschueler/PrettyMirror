@@ -176,31 +176,40 @@ table th.sortable-up a:after {
 	border-top: 2px solid var(--pm-secondary-color-grey);
 }
 
+.note-header {
+	width: 100%;
+	background-color: var(--pm-secondary-color-grey);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+
 table.rounded tr:hover, table.notebox tr:hover, table.rounded-bottom tr:hover {
 	background-color: var(--pm-table-hover);
 }
 
-table.rounded-green th, .notebox > .notebox-decoration-green {
+table.rounded-green th, .notebox > .notebox-decoration-green, .notebox-header-green {
 	background-color: var(--pm-primary-color-green);
 }
 
-table.rounded-yellow th, .notebox > .notebox-decoration-yellow {
+table.rounded-yellow th, .notebox > .notebox-decoration-yellow, .notebox-header-yellow {
 	background-color: var(--pm-primary-color-yellow);
 }
 
-table.rounded-red th, .notebox > .notebox-decoration-red {
+table.rounded-red th, .notebox > .notebox-decoration-red, .notebox-header-red {
 	background-color: var(--pm-primary-color-red);
 }
 
-table.rounded-blue th, .notebox > .notebox-decoration-blue {
+table.rounded-blue th, .notebox > .notebox-decoration-blue, .notebox-header-blue {
 	background-color: var(--pm-primary-color-blue);
 }
 
-table.rounded-magenta th, .notebox > .notebox-decoration-magenta {
+table.rounded-magenta th, .notebox > .notebox-decoration-magenta, .notebox-header-magenta {
 	background-color: var(--pm-primary-color-magenta);
 }
 
-table.rounded-purple th, .notebox > .notebox-decoration-purple {
+table.rounded-purple th, .notebox > .notebox-decoration-purple, .notebox-header-purple {
 	background-color: var(--pm-primary-color-purple);
 	color: var(--pm-background-color-yellow);
 	border-bottom: 2px solid var(--pm-secondary-color-purple);
