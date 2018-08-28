@@ -348,6 +348,10 @@ li.loglink {
 	float: right;
 }
 
+li.userlink {
+	float:right;
+}
+
 li.menulink a, li.loglink a, li.home a {
 	background-color: var(--pm-primary-color-grey);
 	padding: 10px;
@@ -363,6 +367,12 @@ li.menulink a.active, li.loglink a.active {
 
 li.menulink a:hover, li.loglink a:hover {
 	background-color: #808080;
+}
+
+li.userlink a {
+	padding: 10px;
+	display: inline-block;
+	color: white;
 }
 
 .dropdown-content {
