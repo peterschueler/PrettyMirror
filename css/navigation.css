@@ -445,7 +445,7 @@ li.userlink a {
 	list-style: none;
 	background-color: var(--pm-secondary-color-grey);
 	margin-top: 10px;
-	padding: 0px;
+	padding: 5px;
 	border-radius: 10px;
 	overflow: auto;
 	text-align: center;
