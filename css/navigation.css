@@ -1,5 +1,10 @@
 @import url("base.css");
 
+hr.pm-line {
+	border: 1.5px solid var(--pm-secondary-color-grey);
+	border-radius: 4px;
+}
+
 .pm-tab {
 	border: 2px solid var(--pm-secondary-color-grey);
 	padding-top: 6px;
