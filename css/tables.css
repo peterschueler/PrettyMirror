@@ -97,6 +97,10 @@ table.notebox th, table.notebox td {
 	padding-right: 20px;
 }
 
+table.notebox tr:nth-child(even) {
+	background-color: #F9F9F9;
+}
+
 table.no-vertical-border th, table.no-vertical-border td {
 	border: none;
 	border-bottom: 0.5px solid var(--pm-border-color-dark);
