@@ -54,6 +54,13 @@ hr.pm-line {
 	position: relative;
 }
 
+.pm-button-small {
+	float:right;
+	margin:0;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
 .pm-button a {
 	color: var(--pm-background-color-yellow);
 }
