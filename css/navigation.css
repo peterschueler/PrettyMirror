@@ -196,6 +196,7 @@ hr.pm-line {
 	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
 	position: relative;
 	color: #000000;
+	margin: 0;
 }
 
 .pm-dropped-button:hover {
