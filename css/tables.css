@@ -45,10 +45,20 @@ table.notetable td.author {
 	overflow-x: auto;
 }
 
+.flexible-table-single {
+	overflow-x: auto;
+	border-radius: 10px;
+	border: 2px solid var(--pm-secondary-color-grey);
+}
+
 table.rounded-bottom {
 	border-collapse: collapse;
 	border-style: hidden;
 	width: 100%;
+}
+
+table.notebox-single {
+	border-radius: 10px;
 }
 
 @media screen and (max-width: 1200px) {
