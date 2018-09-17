@@ -75,12 +75,31 @@ a:hover {
 	float: right;
 }
 
+.container-two-thirds {
+	padding: 20px 20px;
+	width: 66.66%
+}
+
+.container-one-third {
+	padding: 20px 20px;
+	width: 33.33%
+}
+
 @media screen and (max-width: 600px) {
 	.container-half {
 		padding: 0 10px;
 		width: 100%;
 		float: none;
 		float: none;
+	}
+	
+	.container-two-thirds {
+		padding: 0px 20px;
+		width: 100%;
+	}
+	.container-one-third {
+		padding: 0px 20px;
+		width: 100%;
 	}
 }
 
@@ -96,6 +115,12 @@ a:hover {
 		padding: 0 10px;
 		width: 100%;
 		float: none;
+	}
+	.container-two-thirds {
+		width: 100%;
+	}
+	.container-one-third {
+		width: 100%;
 	}
 }
 
