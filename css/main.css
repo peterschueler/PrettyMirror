@@ -28,8 +28,12 @@ a:hover {
 
 [class*="col-"] {
 	float: left;
-	padding: 15px;
-	padding-top: 0px;
+	padding: 5px;
+}
+
+.row {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .col-1 { width: 8.33%; }
