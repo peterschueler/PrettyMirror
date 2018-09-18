@@ -68,10 +68,12 @@ a:hover {
 }
 
 .container-left {
+	padding-right: 5px;
 	float: left;
 }
 
 .container-right {
+	padding-left: 5px;
 	float: right;
 }
 
