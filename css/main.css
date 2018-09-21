@@ -52,7 +52,7 @@ a:hover {
 [class*="h"].container-header { text-align:center; }
 
 .container {
-	padding: 0px 20px;
+	padding: 20px 20px;
 	width: 100%;
 }
 
