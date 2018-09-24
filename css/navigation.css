@@ -61,6 +61,14 @@ hr.pm-line {
 	padding-bottom:5px;
 }
 
+.pm-button-extra-small {
+	margin:0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .pm-button a {
 	color: var(--pm-background-color-yellow);
 }
