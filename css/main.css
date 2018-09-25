@@ -132,7 +132,7 @@ a:hover {
 }
 
 .item-cell {
-	background-color: purple;
+	background-color: var(--pm-background-color);
 	color: white;
 	display: inline-block;
 	float: left;
@@ -142,6 +142,7 @@ a:hover {
 	margin-top: 5px;
 	margin-bottom: 0;
 	height: 350px;
+	width: 150px;
 }
 
 .item-cover {
