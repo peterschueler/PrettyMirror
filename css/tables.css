@@ -107,6 +107,17 @@ table.notebox th, table.notebox td {
 	padding-right: 20px;
 }
 
+@media screen and (max-width: 600px) {
+	table.notebox th, table.notebox td {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.mobile-hidden {
+		display: none;
+	}
+}
+
 table.notebox tr:nth-child(even) {
 	background-color: #F9F9F9;
 }
