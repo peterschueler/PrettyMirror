@@ -126,23 +126,24 @@ a:hover {
 	}
 }
 
-.item-container {
+.pm-item-wrapper {
+	text-align: center;
+}
+
+.pm-item-container {
 	list-style: none;
+	display: inline-block;
 	width: 100%;
 }
 
-.item-cell {
+.pm-item-cell {
 	background-color: var(--pm-background-color);
 	color: white;
-	display: inline-block;
 	float: left;
-	padding: 20px;
-	padding-bottom: 0;
+	padding: 5px;
 	margin: 10px;
 	margin-top: 5px;
-	margin-bottom: 0;
-	height: 350px;
-	width: 150px;
+	width: 155px;
 }
 
 .item-cover {
