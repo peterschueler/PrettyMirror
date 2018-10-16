@@ -40,107 +40,6 @@ hr.pm-line {
 	background-color: var(--pm-primary-color-blue);
 }
 
-.pm-button {
-	cursor: pointer;
-	float: center;
-	border: 0.5px solid var(--pm-secondary-color-grey);
-	padding: 8px 16px;
-	font-size: 12px;
-	border-radius: 10px;
-	outline: 0;
-	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
-	background-color: var(--pm-background-color-yellow);
-	margin: 5px;
-	position: relative;
-}
-
-.pm-button-small {
-	float:right;
-	margin:0;
-	padding-top:5px;
-	padding-bottom:5px;
-}
-
-.pm-button-extra-small {
-	margin:0;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-.pm-button a {
-	color: var(--pm-background-color-yellow);
-}
-
-.pm-button:hover {
-	background-color: var(--pm-button-color-hover);
-}
-
-.pm-button:disabled {
-	background-color: lightgrey;
-	box-shadow: none;
-	color: grey;
-}
-
-.pm-button-green {
-	background-color: #2fcb8d;
-	border: 0.5px solid #2e8b57;
-	box-shadow: 0 2px 4px #2e8b57;
-}
-
-.pm-button-green:hover {
-	background-color: #3cb371;
-}
-
-.pm-button-yellow {
-	background-color: #ffff99;
-	border: 0.5px solid #c2c72b;
-	box-shadow: 0 2px 4px #c2c72b;
-}
-
-.pm-button-yellow:hover {
-	background-color: #ffff00;
-}
-
-.pm-button-red {
-	background-color: #fd7d56;
-	border: 0.5px solid #c7502b;
-	box-shadow: 0 2px 4px #c7502b;
-}
-
-.pm-button-red:hover {
-	background-color: #f08080;
-}
-
-.pm-button-blue {
-	background-color: #69A0F2;
-	border: 0.5px solid #5378C1;
-	box-shadow: 0 2px 4px #4664A1;
-}
-
-.pm-button-blue:hover {
-	background-color: #6999DF;
-}
-
-.pm-button-magenta {
-	background-color: #DA6D9C;
-	border: 0.5px solid #C3618C;
-	box-shadow: 0 2px 4px #A85F7F;
-}
-
-.pm-button-magenta:hover {
-	background-color: #D5578D;
-}
-
-.pm-button-link {
-	color: #000000;
-}
-
-.pm-button-link:hover {
-	color: #000000;
-}
-
 .pm-navbar ul ul {
 	display: none;
 }
@@ -183,32 +82,6 @@ hr.pm-line {
 .pm-navbar ul ul li {
 	float: left;
 	position: relative;
-}
-
-.pm-button-dropdown:after {
-	content: " ▾";
-}
-
-.pm-dropped-button {
-	cursor: pointer;
-	float: center;
-	width: 120px;
-	border: none;
-	border-left: 0.5px solid var(--pm-secondary-color-grey);
-	border-right: 0.5px solid var(--pm-secondary-color-grey);
-	padding: 8px 16px;
-	font-size: 12px;
-	outline: 0;
-	background: none;
-	background-color: #ffffff;
-	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
-	position: relative;
-	color: #000000;
-	margin: 0;
-}
-
-.pm-dropped-button:hover {
-	background-color: var(--pm-button-color-hover);
 }
 
 li .first {
@@ -298,13 +171,6 @@ li .last {
 .pm-message-blue {
 	background-color: var(--pm-primary-color-blue);
 	box-shadow: 0 2px 4px #4664A1;
-}
-
-.pm-close-button {
-	float: right;
-	background-color: inherit;
-	border: none;
-	text-align: center;
 }
 
 .tabcontent {
