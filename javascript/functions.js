@@ -61,3 +61,9 @@ function dismissAllMessages(element) {
 	var el = document.getElementById(element);
 	el.innerHTML = "";
 }
+
+function reloadPage() {
+	setTimeout(function () {
+		window.location.reload(1);
+	}, 5000);	
+}
