@@ -155,3 +155,9 @@
 	top: 3px;
 	right: -10px;
 }
+
+.pm-button-tiny {
+	background-color: inherit;
+	border: none;
+	text-align: center;
+}

@@ -105,7 +105,7 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	html, body {
 		margin-top: 75px;
 	}
