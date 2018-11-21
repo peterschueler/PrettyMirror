@@ -161,3 +161,12 @@
 	border: none;
 	text-align: center;
 }
+
+.notebox-table-button {
+	background-color: inherit;
+	border: none;
+	text-align: center;
+	font-size: 14px;
+	width:100%;
+	padding:10px;
+}
