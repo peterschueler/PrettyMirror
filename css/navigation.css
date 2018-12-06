@@ -9,7 +9,7 @@ hr.pm-line {
 	border: 2px solid var(--pm-secondary-color-grey);
 	padding-top: 6px;
 	padding-bottom: 6px;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 .pm-tab-left {
@@ -175,9 +175,6 @@ li .last {
 .tabcontent {
 	display: none;
 	padding: 12px 12px;
-	border: 1px solid #ccc;
-	border-top: none;
-	border-radius: 0px 0px 10px 10px;
 }
 
 ul.menubar {

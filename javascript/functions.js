@@ -4,7 +4,7 @@ function toggleDropdown(element, parent) {
 	men.classList.toggle('radius');
 }
 
-function toggleTab(type, color, tabcontainer) {
+function toggleTab(type, color, tabcontainer, button) {
 	var i, tabcontent, tablinks;
 	tabcontent = document.getElementsByClassName("tabcontent");
 	for (i = 0; i < tabcontent.length; i++) {
@@ -19,6 +19,15 @@ function toggleTab(type, color, tabcontainer) {
 	var regex = new RegExp("pm-tab-.*\s?", "i");
 	
 	document.getElementById(tabcontainer).className = document.getElementById("maintab").className.replace(regex, "pm-tab-" + color);
+	
+	buttons = document.getElementsByClassName('pm-tab-button');
+	for (i = 0; i < buttons.length; i++) {
+		buttons[i].classList.replace('pm-button-' + color, 'pm-button-default');
+	}
+	bClasses = document.getElementById(button).classList;
+	if (bClasses.contains('pm-button-default')) {
+		bClasses.replace('pm-button-default', 'pm-button-' + color);
+	}
 }
 
 function toggleSortOrder(element) {
