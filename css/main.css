@@ -49,6 +49,24 @@ a:hover {
 .col-11 { width: 91.66%; }
 .col-12 { width: 100%; }
 
+.col-center-50 {
+	width: 50%;
+	margin-left:25%;
+	margin-right:25%;
+}
+
+.col-center-70 {
+	width: 70%;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+.col-center-80 {
+	width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
 [class*="h"].container-header { text-align:center; }
 
 .container {
@@ -59,6 +77,12 @@ a:hover {
 @media screen and (max-width: 900px) {
 	html, body {
 		margin-top: 75px;
+	}
+	
+	[class*="col-center-"] {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
