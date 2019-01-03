@@ -40,23 +40,24 @@ hr.pm-line {
 	background-color: var(--pm-primary-color-blue);
 }
 
-.pm-navbar ul ul {
+/* Various Dropdown Things */
+
+.pm-navbar ul ul, .pm-headercontent ul ul {
 	display: none;
 }
 
-.pm-navbar ul li:hover > ul {
+.pm-navbar ul li:hover > ul, .pm-headercontent ul li:hover > ul {
 	display: block;
 }
 
-.pm-navbar ul {
+.pm-navbar ul, .pm-headercontent ul {
 	list-style: none;
 	position: relative;
 	display: inline-table;
-	margin: none;
 	width: 100%;
 }
 
-.pm-navbar ul:after {
+.pm-navbar ul:after, .pm-headercontent ul:after {
 	content: "";
 	clear: both;
 	display: block;
@@ -74,7 +75,7 @@ hr.pm-line {
 	display: block;
 }
 
-.pm-navbar ul ul {
+.pm-navbar ul ul, .pm-headercontent ul ul {
 	position: absolute;
 	width: 0;
 }
