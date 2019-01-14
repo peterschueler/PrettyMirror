@@ -305,7 +305,7 @@ li.userlink a {
 	width: 400px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 	.searchbar {
 		padding-left: 10px;
 		margin-left: 10px;
