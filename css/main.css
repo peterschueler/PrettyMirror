@@ -87,18 +87,16 @@ a:hover {
 }
 
 .container-half {
-	padding: 15px 15px;
+	padding: 20px 20px;
 	width: 50%;
 	padding-top: 0;
 }
 
 .container-left {
-	padding-right: 5px;
 	float: left;
 }
 
 .container-right {
-	padding-left: 5px;
 	float: right;
 }
 
