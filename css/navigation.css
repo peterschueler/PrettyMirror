@@ -392,3 +392,60 @@ li.userlink a {
 		width: 100%;
 	}
 }
+
+.pm-image-box {
+	background-image: url("{{MEDIA_URL}}/images/interface/comic_default.jpg");
+	background-size: 100%;
+	padding: 0;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
+
+img.pm-interface-image {
+	width: 180;
+}
+
+.pm-centered-image-header {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+	text-align:center;
+	color:var(--bd-background-color);
+	background-color:var(--bd-detail-color);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.pm-item-cell-home {
+	text-align:left;
+	height:240px;
+	width:180px;
+	overflow:hidden;
+}
+
+@media screen and (max-width: 600px) {
+	.pm-interface-image {
+		width: 100%;
+	}
+
+	.pm-item-container-mobile {
+		padding: 0;
+		padding-top: 10px;
+	}
+	
+	.notebox-decoration-pm-mobile {
+		border-radius: 10px;
+	}
+	
+	.pm-item-cell-home-mobile {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.notebox-content-pm-mobile {
+		border: none;
+		padding:0px;
+	}
+}
