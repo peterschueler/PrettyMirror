@@ -397,9 +397,13 @@ li.userlink a {
 	background-image: url("{{MEDIA_URL}}/images/interface/comic_default.jpg");
 	background-size: 100%;
 	padding: 0;
-	height: 100px;
+	height: 80%;
 	overflow: hidden;
 	position: relative;
+}
+
+.pm-item-cell-home:hover > .pm-image-box {
+	height: 30%;
 }
 
 img.pm-interface-image {
