@@ -142,14 +142,14 @@ li .last {
 @media screen and (max-width: 600px) {
 	.pm-message {
 		float: left;
-		width: 40%	
+		width: 40%
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.pm-message {
 		float: left;
-		width: 100%	
+		width: 100%
 	}
 }
 
@@ -188,7 +188,7 @@ ul.menubar {
 	top: 0;
 	width: 100%;
 	box-shadow: 0 2px 4px var(--pm-secondary-color-grey);
-	z-index: 1;
+	z-index: 999;
 }
 
 ul.menubar.radius { border-radius: 0px 0px 10px 10px; }
@@ -199,7 +199,7 @@ ul.menubar.radius { border-radius: 0px 0px 10px 10px; }
 	}
 }
 
-/* 
+/*
 @media screen and (max-width: 600px) {
 	ul.menubar {
 		list-style-type: none;
@@ -214,7 +214,7 @@ ul.menubar.radius { border-radius: 0px 0px 10px 10px; }
 		box-shadow: 0 0 4px 2px var(--pm-secondary-color-grey);
 		z-index: 1;
 	}
-	
+
 	ul.menubar.radius { border-radius: 10px 10px 0px 0px; }
 }
  */
@@ -312,11 +312,11 @@ li.userlink a {
 		padding-right: 5px;
 		width: 25%;
 	}
-	
+
 	input {
 		width: 200px;
 	}
-	
+
 	.pm-button-extra-small {
 		display: none;
 	}
@@ -438,11 +438,11 @@ img.pm-interface-image {
 		padding: 0;
 		padding-top: 10px;
 	}
-	
+
 	.notebox-decoration-pm-mobile {
 		border-radius: 10px;
 	}
-	
+
 	.pm-item-cell-home-mobile {
 		width: 100%;
 		margin-bottom: 10px;
