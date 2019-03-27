@@ -394,15 +394,10 @@ li.userlink a {
 }
 
 .pm-image-box {
-	background-size: 100%;
 	padding: 0;
-	height: 80%;
+	height: 280px;
 	overflow: hidden;
 	position: relative;
-}
-
-.pm-item-cell-home:hover > .pm-image-box {
-	height: 30%;
 }
 
 img.pm-interface-image {
@@ -424,11 +419,32 @@ img.pm-interface-image {
 	padding-bottom: 5px;
 }
 
+.pm-centered-header {
+	background-color:var(--bd-detail-color);
+	text-align:center;
+	color:white;
+	padding:5px;
+}
+
 .pm-item-cell-home {
 	text-align:left;
-	height:240px;
+	height:280px;
 	width:180px;
 	overflow:hidden;
+}
+
+.pm-item-cell-home:hover > .pm-image-box {
+	opacity: 1;
+	transition-delay: 0.5s;
+	transition-property: height;
+	transition-duration: 1s;
+	position: static;
+	height: 80px;
+}
+
+.pm-image-box:hover {
+	background-color: var(--bd-background-alternative-color);
+	padding-bottom: 40px;
 }
 
 @media screen and (max-width: 600px) {
