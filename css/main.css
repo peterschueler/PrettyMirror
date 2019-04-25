@@ -78,7 +78,7 @@ a:hover {
 	html, body {
 		margin-top: 75px;
 	}
-	
+
 	[class*="col-center-"] {
 		width: 100%;
 		margin-left: 0;
@@ -117,7 +117,7 @@ a:hover {
 		float: none;
 		float: none;
 	}
-	
+
 	.container-two-thirds {
 		padding: 0px 20px;
 		width: 100%;
@@ -135,7 +135,7 @@ a:hover {
 	[class*="col-"] {
 		width: 100%;
 	}
-	
+
 	.container {
 		padding: 0 10px;
 		width: 100%;
