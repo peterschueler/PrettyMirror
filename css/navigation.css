@@ -138,21 +138,6 @@ li .last {
 	margin-right: 10px;
 	float: left;
 }
-
-@media screen and (max-width: 600px) {
-	.pm-message {
-		float: left;
-		width: 40%
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.pm-message {
-		float: left;
-		width: 100%
-	}
-}
-
 .pm-message-green {
 	background-color: var(--pm-primary-color-green);
 	box-shadow: 0 2px 4px #2e8b57;
@@ -192,32 +177,6 @@ ul.menubar {
 }
 
 ul.menubar.radius { border-radius: 0px 0px 10px 10px; }
-
-@media screen and (max-width: 600px) {
-	ul.menubar li.menulink {
-		display: none;
-	}
-}
-
-/*
-@media screen and (max-width: 600px) {
-	ul.menubar {
-		list-style-type: none;
-		margin: 0;
-		padding: 5px 10px;
-		overflow: hidden;
-		background-color: var(--pm-primary-color-grey);
-		position: fixed;
-		top: auto;
-		bottom: 0;
-		width: 100%;
-		box-shadow: 0 0 4px 2px var(--pm-secondary-color-grey);
-		z-index: 1;
-	}
-
-	ul.menubar.radius { border-radius: 10px 10px 0px 0px; }
-}
- */
 
 li.menulink {
 	float: left;
@@ -282,23 +241,6 @@ li.userlink a {
 	color: #ffffff;
 	float: left;
 }
-
-@media screen and (max-width: 600px) {
-	.dropdown-content {
-		list-style-type: none;
-		margin: 0;
-		display: none;
-		position: absolute;
-		overflow: hidden;
-		top: auto;
-		bottom: 50px;
-		width: 100%;
-		background-color: var(--pm-secondary-color-grey);
-		border-radius: 10px 10px 0px 0px;
-		box-shadow: 0 0 4px 2px var(--pm-secondary-color-grey);
-	}
-}
-
 .searchbar {
 	float:left;
 	padding-top:7px;
@@ -387,12 +329,6 @@ li.userlink a {
 	}
 }
 
-@media screen and (max-width: 600px) {
-	.container-paginaton {
-		width: 100%;
-	}
-}
-
 .pm-image-box {
 	padding: 0;
 	height: 280px;
@@ -448,6 +384,38 @@ img.pm-interface-image {
 }
 
 @media screen and (max-width: 600px) {
+	.pm-message {
+		float: left;
+		width: 40%
+	}
+
+	.pm-message {
+		float: left;
+		width: 100%
+	}
+
+	ul.menubar li.menulink {
+		display: none;
+	}
+
+	.dropdown-content {
+		list-style-type: none;
+		margin: 0;
+		display: none;
+		position: absolute;
+		overflow: hidden;
+		top: auto;
+		bottom: 50px;
+		width: 100%;
+		background-color: var(--pm-secondary-color-grey);
+		border-radius: 10px 10px 0px 0px;
+		box-shadow: 0 0 4px 2px var(--pm-secondary-color-grey);
+	}
+
+	.container-paginaton {
+		width: 100%;
+	}
+
 	.pm-interface-image {
 		width: 100%;
 	}
@@ -464,6 +432,7 @@ img.pm-interface-image {
 	.pm-item-cell-home-mobile {
 		width: 100%;
 		margin-bottom: 10px;
+		margin-top: 10px;
 	}
 	.notebox-content-pm-mobile {
 		border: none;

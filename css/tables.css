@@ -107,17 +107,6 @@ table.notebox th, table.notebox td {
 	padding-right: 20px;
 }
 
-@media screen and (max-width: 600px) {
-	table.notebox th, table.notebox td {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	
-	.mobile-hidden {
-		display: none;
-	}
-}
-
 table.notebox tr:nth-child(even) {
 	background-color: #F9F9F9;
 }
@@ -238,4 +227,15 @@ table.rounded-purple th, .notebox > .notebox-decoration-purple, .notebox-header-
 	background-color: var(--pm-primary-color-purple);
 	color: var(--pm-background-color-yellow);
 	border-bottom: 2px solid var(--pm-secondary-color-purple);
+}
+
+@media screen and (max-width: 600px) {
+	table.notebox th, table.notebox td {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.mobile-hidden {
+		display: none;
+	}
 }
