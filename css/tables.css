@@ -236,6 +236,6 @@ table.rounded-purple th, .notebox > .notebox-decoration-purple, .notebox-header-
 	}
 
 	.mobile-hidden {
-		display: none;
+		display: none!important;
 	}
 }
