@@ -369,7 +369,7 @@ img.pm-interface-image {
 	overflow:hidden;
 }
 
-.pm-item-cell-home:hover > .pm-image-box {
+.pm-item-cell-home a:hover > .pm-image-box {
 	opacity: 1;
 	transition-delay: 0.5s;
 	transition-property: height;
@@ -378,7 +378,7 @@ img.pm-interface-image {
 	height: 80px;
 }
 
-.pm-image-box:hover {
+.pm-image-box a:hover {
 	background-color: var(--bd-background-alternative-color);
 	padding-bottom: 40px;
 }
