@@ -46,8 +46,10 @@ hr.pm-line {
 	display: none;
 }
 
-.pm-navbar ul li:hover > ul, .pm-headercontent ul li:hover > ul {
-	display: block;
+@media (hover: hover) {
+	.pm-navbar ul li:hover > ul, .pm-headercontent ul li:hover > ul {
+		display: block;
+	}
 }
 
 .pm-navbar ul, .pm-headercontent ul {
