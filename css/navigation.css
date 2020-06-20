@@ -125,10 +125,6 @@ li .last {
 	border-radius: 10px;
 }
 
-.message-container {
-	margin-left: 6%;
-}
-
 .pm-message {
 	width: 100%;
 	background-color: var(--pm-primary-color-grey);
